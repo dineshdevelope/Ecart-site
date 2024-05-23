@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./dist/assets/index-B4soV5N0.css" />
+    <!--  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+  </head>
+  <body>
+    <form id="formEl">
+      <div class="flex items-center justify-center pt-4">
+        <img
+          src="https://cdn-icons-png.flaticon.com/256/5131/5131602.png"
+          alt="Shoping Img"
+          class="w-20"
+        />
+        <h1 class="font-serif text-pink-700 text-2xl">Shopping List</h1>
+      </div>
+      <div class="flex flex-col justify-center items-center pt-4">
+        <input
+          type="text"
+          id="formInput"
+          placeholder="Enter Product Name"
+          class="rounded bg-red-100 p-1 pl-10"
+        />
+      </div>
+      <div class="flex flex-col justify-center items-center pt-4">
+        <button class="bg-blue-500 rounded text-white p-1 font-light">
+          + Add Item
+        </button>
+      </div>
+    </form>
+    <div class="flex flex-col justify-center items-center pt-4">
+      <input
+        type="text"
+        id="filterItem"
+        placeholder="Filter item"
+        class="rounded bg-red-100 pl-10 p-1"
+      />
+    </div>
+    <hr />
+    <div>
+      <ul id="itemList">
+        <div class="flex justify-center items-center p-3">
+          <li>
+            Milk
+            <button class="ml-32">
+              <img src="./src/photos/x.svg" alt="Delete" class="bg-red-800" />
+            </button>
+          </li>
+        </div>
+        <div class="flex justify-center items-center p-3">
+          <li>
+            Milk
+            <button class="ml-32">
+              <img src="./src/photos/x.svg" alt="Delete" class="bg-red-800" />
+            </button>
+          </li>
+        </div>
+        <div class="flex justify-center items-center p-3">
+          <li>
+            Milk
+            <button class="ml-32">
+              <img src="./src/photos/x.svg" alt="Delete" class="bg-red-800" />
+            </button>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div class="flex justify-center pt-5">
+      <button
+        class="bg-red-800 hover:bg-red-400 hover:text-red-800 p-2 rounded text-white font-bold"
+        id="clearItem"
+      >
+        Clear All
+      </button>
+    </div>
+    <script type="module" src="./dist/assets/index-CpbCdpT-.js"></script>
+  </body>
+</html>
