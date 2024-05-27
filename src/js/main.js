@@ -10,7 +10,7 @@ function addItem(e) {
   // console.log(newItem);
   if (newItem) {
     const devEl = document.createElement("dev");
-    devEl.className = "flex justify-center items-center p-3";
+    devEl.className = "flex justify-center items-center m-3";
 
     const li = document.createElement("li");
     li.textContent = newItem;
@@ -33,7 +33,7 @@ formEl.addEventListener("submit", addItem);
 //console.log(itemList);
 
 function removeItem(e) {
-  e.target.parentElement.parentElement.parentElement.remove();
+  e.target.parentElement.remove();
 }
 
 itemList.addEventListener("click", removeItem);
