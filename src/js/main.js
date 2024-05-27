@@ -20,9 +20,9 @@ function addItem(e) {
     btnEl.innerHTML =
       ' <img src="./src/photos/x.svg" alt="Delete" class="bg-red-800" />';
 
-    itemList.appendChild(devEl);
-    devEl.appendChild(li);
-    li.appendChild(btnEl);
+    itemList.append(devEl);
+    devEl.append(li);
+    li.append(btnEl);
 
     formEl.reset();
   }
