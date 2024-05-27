@@ -33,7 +33,7 @@ formEl.addEventListener("submit", addItem);
 //console.log(itemList);
 
 function removeItem(e) {
-  e.target.parentElement.remove();
+  e.target.parentElement.parentElement.remove();
 }
 
 itemList.addEventListener("click", removeItem);
